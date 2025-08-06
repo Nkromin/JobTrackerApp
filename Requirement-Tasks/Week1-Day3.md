@@ -1,4 +1,4 @@
-✅ Week 1 – Day 3: Define Pydantic Schemas for Job Entity
+Week 1 – Day 3: Define Pydantic Schemas for Job Entity
 🎯 Objective
 Create all necessary Pydantic models in schemas.py to validate and structure request/response data for the Job entity. These schemas will be used in the API endpoints and service layer.
 
