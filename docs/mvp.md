@@ -16,5 +16,3 @@
 - DELETE /jobs/{id}
 
 [ ] Optional future features: user auth, reminders, resume parsing
-
-[ ] Commit:
