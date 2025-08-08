@@ -16,4 +16,4 @@ If someone sends the wrong kind of data, FastAPI returns a clear error message w
 we write less code to check data — FastAPI and Pydantic do that for you behind the scenes.
 Since we're using type hints, our code editor gives you autocomplete, suggestions, and catches mistakes while typing.
 i can define models (using Pydantic) once and use them across multiple endpoints — super helpful for consistency.
-we building APIs with the confidence that your inputs are well-structured, and the docs are already written for you.
+we building APIs with the confidence that your inputs are well-structured.
