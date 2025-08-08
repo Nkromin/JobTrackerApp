@@ -14,7 +14,7 @@ from sql.database import Base
 from .models import JobStatus  # if enum is separated
 
 class Job(Base):
-    _tablename_ = "jobs"
+    __tablename__ = "jobs"
 
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, nullable=False)
