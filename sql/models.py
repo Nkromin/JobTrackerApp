@@ -18,7 +18,7 @@ class Job(Base):
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, nullable=False)
     company = Column(String, nullable=False)
-    status = Column(Enum(JobStatus), nullable=False, default="applied")
+    status = Column(Enum(JobStatus), nullable=False, default=JobStatus.applied)
     applied_date = Column(DateTime, nullable=False)
     notes = Column(Text, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
