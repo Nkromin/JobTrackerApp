@@ -15,7 +15,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 
-Routes
+## Routes
 
-GET / → Welcome
+- `GET /` – Welcome
 
+<!-- Add more routes here as the API expands -->
