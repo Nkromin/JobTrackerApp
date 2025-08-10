@@ -11,7 +11,6 @@ class JobStatus(str, enum.Enum):
 from sqlalchemy import Column, Integer, String, DateTime, Enum, Text
 from datetime import datetime
 from sql.database import Base
-from .models import JobStatus  # if enum is separated
 
 class Job(Base):
     __tablename__ = "jobs"
