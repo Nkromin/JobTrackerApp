@@ -53,7 +53,6 @@ git commit -m "Initialize FastAPI project environment"
 Type: Development
 Priority: High
 Time Estimate: 20 min
-
 ✅ To-Do:
 
 [ ] Create top-level folders:
