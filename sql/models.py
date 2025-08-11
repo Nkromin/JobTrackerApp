@@ -11,7 +11,6 @@ class JobStatus(str, enum.Enum):
 from sqlalchemy import Column, Integer, String, DateTime, Enum, Text
 from datetime import datetime
 from sql.database import Base
-from .models import JobStatus  # if enum is separated
 
 class Job(Base):
     __tablename__ = "jobs"
@@ -19,7 +18,7 @@ class Job(Base):
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String, nullable=False)
     company = Column(String, nullable=False)
-    status = Column(Enum(JobStatus), nullable=False, default="applied")
+    status = Column(Enum(JobStatus), nullable=False, default=JobStatus.applied)
     applied_date = Column(DateTime, nullable=False)
     notes = Column(Text, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)

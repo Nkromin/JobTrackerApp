@@ -5,7 +5,7 @@ FastAPI uses Starlette (for performance) and Pydantic (for data handling), so we
 If we know Python,  Writing routes and handling data feels very natural.
 
 AUTO DOCUMENTATION
-As soon as we write your API code, FastAPI builds interactive docs for you — no extra work needeed.
+As soon as we write your API code, FastAPI builds interactive docs for you — no extra work needed.
 Since the docs are generated from our code, they always reflect the current state of our API
 FastAPI uses OpenAPI, which means we can easily generate client SDKs or use tools like Swagger.
 
